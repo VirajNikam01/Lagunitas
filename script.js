@@ -35,11 +35,6 @@ tl.from("#page1>h1",{
   opacity:0,
   duraion:0.6,
 },"-=0.4")
-.from("#page1dog",{
-  scale:3.5,
-  opacity:0,
-  duration:0.6,
-})
 gsap.to("#bottle1",{
     scrollTrigger:{
         trigger:"#bottle1",
